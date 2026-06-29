@@ -12,6 +12,10 @@ body {
   font-family: var(--default-font);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -50,6 +54,9 @@ header {
   background-color: var(--background-color);
   color: var(--default-color);
   padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header .header-row {
@@ -71,6 +78,10 @@ header ul {
   align-items: center;
 }
 
+header ul a {
+  color: var(--default-color);
+}
+
 header ul li {
   padding: 18px 15px;
   font-size: 16px;
@@ -86,10 +97,6 @@ header ul li:hover {
 
 header ul li i {
   font-size: 14px;
-}
-
-header ul .home-li-header {
-  color: #008870;
 }
 
 .icons-header {
