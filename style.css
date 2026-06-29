@@ -99,6 +99,67 @@ header ul li i {
   font-size: 14px;
 }
 
+.dropdown-li {
+  position: relative;
+}
+
+.dropdown-li:hover .dropdown-ul {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-li .dropdown-ul {
+  margin: 0;
+  padding: 10px;
+  background: #1f1f23;
+  display: block;
+  position: absolute;
+  display: none;
+  left: 14px;
+  top: 60px;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 4px;
+  z-index: 99;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.dropdown-li .dropdown-ul li {
+  padding: 12px 20px;
+  font-size: 15px;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-li .dropdown-ul li:hover {
+  color: #008870;
+}
+
+.deep-dropdown-ul {
+  margin: 0;
+  padding: 10px;
+  background: #1f1f23;
+  display: block;
+  position: absolute;
+  display: none;
+  left: -200px;
+  top: 45px;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 4px;
+  z-index: 99;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.deep-dropdown-li:hover .deep-dropdown-ul {
+  display: block;
+  opacity: 1;
+}
+
+
+
 .icons-header {
   display: flex;
   gap: 8px;
