@@ -91,6 +91,10 @@ header ul li {
   cursor: pointer;
 }
 
+header ul li a {
+  transition: all 0.3s ease;
+}
+
 header ul li:hover {
   color: #008870;
 }
@@ -125,6 +129,7 @@ header ul li i {
   visibility: visible;
   opacity: 1;
 }
+
 .dropdown-li .dropdown-ul li {
   padding: 12px 25px;
   font-size: 15px;
@@ -132,7 +137,11 @@ header ul li i {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.dropdown-li .dropdown-ul li:hover {
+.main-menu li:hover {
+  color: #008870;
+}
+
+.main-menu li:hover a {
   color: #008870;
 }
 
