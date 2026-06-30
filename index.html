@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -75,28 +76,34 @@
         <img src="./Images/hero-img.webp" />
       </div>
 
-      <div class="hero-stats">
-        <div class="stat-item">
-          <i class="bi bi-trophy"></i>
-          <h3><span class="purecounter">25</span>+</h3>
-          <p>Awards Won</p>
+      <div class="hero-stats row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="stat-item">
+            <i class="bi bi-trophy"></i>
+            <h3><span class="purecounter">25</span>+</h3>
+            <p>Awards Won</p>
+          </div>
         </div>
-
-        <div class="stat-item">
-          <i class="bi bi-people"></i>
-          <h3><span class="purecounter">850</span>+</h3>
-          <p>Happy Clients</p>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="stat-item">
+            <i class="bi bi-people"></i>
+            <h3><span class="purecounter">850</span>+</h3>
+            <p>Happy Clients</p>
+          </div>
         </div>
-
-        <div class="stat-item">
-          <i class="bi bi-lightning"></i>
-          <h3><span class="purecounter">95</span>%</h3>
-          <p>Project Success</p>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="stat-item">
+            <i class="bi bi-lightning"></i>
+            <h3><span class="purecounter">95</span>%</h3>
+            <p>Project Success</p>
+          </div>
         </div>
-        <div class="stat-item">
-          <i class="bi bi-globe"></i>
-          <h3><span class="purecounter">12</span>+</h3>
-          <p>Countries Served</p>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="stat-item">
+            <i class="bi bi-globe"></i>
+            <h3><span class="purecounter">12</span>+</h3>
+            <p>Countries Served</p>
+          </div>
         </div>
       </div>
     </div>
@@ -1317,6 +1324,7 @@
       .bindPopup('A pretty CSS popup.<br> Easily customizable.')
       .openPopup();
   </script>
+
 </body>
 
 </html>
